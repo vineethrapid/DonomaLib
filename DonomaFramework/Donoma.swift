@@ -25,5 +25,6 @@ public class DonomaLib {
     }
     public func testing(){
         print("Helloo")
+        print("new")
     }
 }
