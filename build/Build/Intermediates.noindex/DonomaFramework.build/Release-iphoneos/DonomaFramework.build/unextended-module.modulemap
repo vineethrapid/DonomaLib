@@ -1,0 +1,10 @@
+framework module DonomaFramework {
+  umbrella header "DonomaFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module DonomaFramework.__Swift {
+    exclude header "DonomaFramework-Swift.h"
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>04086054-EBBA-4498-8AA9-67184F2C6DEC</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>04086054-EBBA-4498-8AA9-67184F2C6DEC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>DonomaFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DonomaFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project DonomaFramework with scheme DonomaFramework and configuration Release</string>
+			<key>timeStartedRecording</key>
+			<real>651519515.20390201</real>
+			<key>timeStoppedRecording</key>
+			<real>651519519.02803802</real>
+			<key>title</key>
+			<string>Building project DonomaFramework with scheme DonomaFramework and configuration Release</string>
+			<key>uniqueIdentifier</key>
+			<string>04086054-EBBA-4498-8AA9-67184F2C6DEC</string>
+		</dict>
+		<key>BA38DEB1-CEDA-49B5-8890-F23C3316BE3D</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BA38DEB1-CEDA-49B5-8890-F23C3316BE3D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>DonomaFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DonomaFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Cleaning project DonomaFramework with scheme DonomaFramework and configuration Release</string>
+			<key>timeStartedRecording</key>
+			<real>651519652.14362001</real>
+			<key>timeStoppedRecording</key>
+			<real>651519652.219118</real>
+			<key>title</key>
+			<string>Cleaning project DonomaFramework with scheme DonomaFramework and configuration Release</string>
+			<key>uniqueIdentifier</key>
+			<string>BA38DEB1-CEDA-49B5-8890-F23C3316BE3D</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

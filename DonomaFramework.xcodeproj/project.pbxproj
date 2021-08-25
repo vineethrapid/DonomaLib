@@ -3,13 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2520CF5E46D924E67217BC69 /* Pods_DonomaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E13A3ADA62B6A3EA5C8A93 /* Pods_DonomaFramework.framework */; };
+		81030058108F9C3FD7F6EB21 /* Pods_DonomaFramework_DonomaFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD761AC8FD3D7C64F2467A6 /* Pods_DonomaFramework_DonomaFrameworkTests.framework */; };
 		856C5D3826D3B86C007B0526 /* DonomaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 856C5D2E26D3B86C007B0526 /* DonomaFramework.framework */; };
 		856C5D3D26D3B86C007B0526 /* DonomaFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856C5D3C26D3B86C007B0526 /* DonomaFrameworkTests.swift */; };
 		856C5D3F26D3B86C007B0526 /* DonomaFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 856C5D3126D3B86C007B0526 /* DonomaFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		856C5D5026D3F8CB007B0526 /* Donoma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856C5D4F26D3F8CB007B0526 /* Donoma.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,13 +25,32 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		856C5D7626D56667007B0526 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		785AFB5DCDF444BDB2189CE9 /* Pods-DonomaFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonomaFramework.debug.xcconfig"; path = "Target Support Files/Pods-DonomaFramework/Pods-DonomaFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		856C5D2E26D3B86C007B0526 /* DonomaFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DonomaFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		856C5D3126D3B86C007B0526 /* DonomaFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DonomaFramework.h; sourceTree = "<group>"; };
 		856C5D3226D3B86C007B0526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		856C5D3726D3B86C007B0526 /* DonomaFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonomaFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		856C5D3C26D3B86C007B0526 /* DonomaFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonomaFrameworkTests.swift; sourceTree = "<group>"; };
 		856C5D3E26D3B86C007B0526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		856C5D4F26D3F8CB007B0526 /* Donoma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Donoma.swift; sourceTree = "<group>"; };
+		A360161B6826F3D5F81608EE /* Pods-DonomaFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonomaFramework.release.xcconfig"; path = "Target Support Files/Pods-DonomaFramework/Pods-DonomaFramework.release.xcconfig"; sourceTree = "<group>"; };
+		AF38320B633E4301F98688C1 /* Pods-DonomaFramework-DonomaFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonomaFramework-DonomaFrameworkTests.release.xcconfig"; path = "Target Support Files/Pods-DonomaFramework-DonomaFrameworkTests/Pods-DonomaFramework-DonomaFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		C4E13A3ADA62B6A3EA5C8A93 /* Pods_DonomaFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonomaFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD761AC8FD3D7C64F2467A6 /* Pods_DonomaFramework_DonomaFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonomaFramework_DonomaFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF453C30E558CC745E10C9FA /* Pods-DonomaFramework-DonomaFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonomaFramework-DonomaFrameworkTests.debug.xcconfig"; path = "Target Support Files/Pods-DonomaFramework-DonomaFrameworkTests/Pods-DonomaFramework-DonomaFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2520CF5E46D924E67217BC69 /* Pods_DonomaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				856C5D3826D3B86C007B0526 /* DonomaFramework.framework in Frameworks */,
+				81030058108F9C3FD7F6EB21 /* Pods_DonomaFramework_DonomaFrameworkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +80,8 @@
 				856C5D3026D3B86C007B0526 /* DonomaFramework */,
 				856C5D3B26D3B86C007B0526 /* DonomaFrameworkTests */,
 				856C5D2F26D3B86C007B0526 /* Products */,
+				9100445B11382EDE5F9D309F /* Pods */,
+				8D444335392B4345223FB6FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				856C5D3126D3B86C007B0526 /* DonomaFramework.h */,
+				856C5D4F26D3F8CB007B0526 /* Donoma.swift */,
 				856C5D3226D3B86C007B0526 /* Info.plist */,
 			);
 			path = DonomaFramework;
@@ -84,6 +111,26 @@
 				856C5D3E26D3B86C007B0526 /* Info.plist */,
 			);
 			path = DonomaFrameworkTests;
+			sourceTree = "<group>";
+		};
+		8D444335392B4345223FB6FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4E13A3ADA62B6A3EA5C8A93 /* Pods_DonomaFramework.framework */,
+				CDD761AC8FD3D7C64F2467A6 /* Pods_DonomaFramework_DonomaFrameworkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9100445B11382EDE5F9D309F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				785AFB5DCDF444BDB2189CE9 /* Pods-DonomaFramework.debug.xcconfig */,
+				A360161B6826F3D5F81608EE /* Pods-DonomaFramework.release.xcconfig */,
+				FF453C30E558CC745E10C9FA /* Pods-DonomaFramework-DonomaFrameworkTests.debug.xcconfig */,
+				AF38320B633E4301F98688C1 /* Pods-DonomaFramework-DonomaFrameworkTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 856C5D4226D3B86C007B0526 /* Build configuration list for PBXNativeTarget "DonomaFramework" */;
 			buildPhases = (
+				160F342DA0A378C43BEAA619 /* [CP] Check Pods Manifest.lock */,
 				856C5D2926D3B86C007B0526 /* Headers */,
 				856C5D2A26D3B86C007B0526 /* Sources */,
 				856C5D2B26D3B86C007B0526 /* Frameworks */,
 				856C5D2C26D3B86C007B0526 /* Resources */,
+				856C5D7626D56667007B0526 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -122,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 856C5D4526D3B86C007B0526 /* Build configuration list for PBXNativeTarget "DonomaFrameworkTests" */;
 			buildPhases = (
+				33F1885283A2D6C4F570290B /* [CP] Check Pods Manifest.lock */,
 				856C5D3326D3B86C007B0526 /* Sources */,
 				856C5D3426D3B86C007B0526 /* Frameworks */,
 				856C5D3526D3B86C007B0526 /* Resources */,
+				59281D41B612514D9A5D009D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,6 +198,7 @@
 				TargetAttributes = {
 					856C5D2D26D3B86C007B0526 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 					856C5D3626D3B86C007B0526 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -160,6 +212,49 @@
 			knownRegions = (
 				en,
 				Base,
+				af,
+				ar,
+				bn,
+				cs,
+				da,
+				de,
+				el,
+				en_GB,
+				es,
+				es_ES,
+				fi,
+				fil,
+				fr,
+				gu,
+				he,
+				hi,
+				hr,
+				hu,
+				id,
+				it,
+				ja,
+				kn,
+				ko,
+				ml,
+				mr,
+				ms,
+				nb,
+				nl,
+				pa,
+				pl,
+				pt,
+				pt_PT,
+				ru,
+				sk,
+				sv,
+				ta,
+				te,
+				th,
+				tr,
+				vi,
+				zh,
+				zh_HK,
+				zh_TW,
 			);
 			mainGroup = 856C5D2426D3B86C007B0526;
 			productRefGroup = 856C5D2F26D3B86C007B0526 /* Products */;
@@ -189,11 +284,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		160F342DA0A378C43BEAA619 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DonomaFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33F1885283A2D6C4F570290B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DonomaFramework-DonomaFrameworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59281D41B612514D9A5D009D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DonomaFramework-DonomaFrameworkTests/Pods-DonomaFramework-DonomaFrameworkTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DonomaFramework-DonomaFrameworkTests/Pods-DonomaFramework-DonomaFrameworkTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DonomaFramework-DonomaFrameworkTests/Pods-DonomaFramework-DonomaFrameworkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		856C5D2A26D3B86C007B0526 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				856C5D5026D3F8CB007B0526 /* Donoma.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +380,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -271,7 +432,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -284,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -340,13 +502,29 @@
 		};
 		856C5D4326D3B86C007B0526 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 785AFB5DCDF444BDB2189CE9 /* Pods-DonomaFramework.debug.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8C7J55D82V;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBAEMKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit_Basics\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKLoginKit\"",
+					"$(BUILD_PRODUCTS_DIR)/DonomaFramework",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FBSDKCoreKit_Basics",
+					"$(PROJECT_DIR)/FBSDKCoreKit",
+					"$(PROJECT_DIR)/FBAEMKit",
+					"$(PROJECT_DIR)/DonomaFramework",
+				);
 				INFOPLIST_FILE = DonomaFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -354,9 +532,12 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/DonomaFramework/FBSDKLoginKit.framework\"";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.library.DonomaFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,13 +545,29 @@
 		};
 		856C5D4426D3B86C007B0526 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A360161B6826F3D5F81608EE /* Pods-DonomaFramework.release.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8C7J55D82V;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBAEMKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit_Basics\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKLoginKit\"",
+					"$(BUILD_PRODUCTS_DIR)/DonomaFramework",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FBSDKCoreKit_Basics",
+					"$(PROJECT_DIR)/FBSDKCoreKit",
+					"$(PROJECT_DIR)/FBAEMKit",
+					"$(PROJECT_DIR)/DonomaFramework",
+				);
 				INFOPLIST_FILE = DonomaFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -378,9 +575,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/DonomaFramework/FBSDKLoginKit.framework\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.library.DonomaFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -388,7 +586,9 @@
 		};
 		856C5D4626D3B86C007B0526 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF453C30E558CC745E10C9FA /* Pods-DonomaFramework-DonomaFrameworkTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8C7J55D82V;
 				INFOPLIST_FILE = DonomaFrameworkTests/Info.plist;
@@ -406,7 +606,9 @@
 		};
 		856C5D4726D3B86C007B0526 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF38320B633E4301F98688C1 /* Pods-DonomaFramework-DonomaFrameworkTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8C7J55D82V;
 				INFOPLIST_FILE = DonomaFrameworkTests/Info.plist;

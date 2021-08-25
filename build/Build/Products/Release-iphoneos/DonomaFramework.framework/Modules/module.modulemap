@@ -1,0 +1,11 @@
+framework module DonomaFramework {
+  umbrella header "DonomaFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module DonomaFramework.Swift {
+    header "DonomaFramework-Swift.h"
+    requires objc
+}

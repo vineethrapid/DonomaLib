@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/vineeth/Desktop/DonomaFramework/build/Build/Products/Release-iphoneos/DonomaFramework.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/vineeth/Desktop/DonomaFramework/build/Build/Intermediates.noindex/DonomaFramework.build/Release-iphoneos/DonomaFramework.build/unextended-module.modulemap",
+    }]
+  }]
+}
